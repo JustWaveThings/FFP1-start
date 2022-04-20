@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Page Title</title>
+</head>
+
+<body>
+    <script>
+        // Your JavaScript goes here!
+        // #1
+
+        const myInt = 5;
+        const myFloat = 6.667;
+    
+        console.log("The answer is: " + myInt);
+        console.log("The answer is: " + myFloat);
+
+        //#2
+
+        console.log(typeof myFloat);
+        console.log(typeof myInt);
+
+        //#3
+
+        const lotsOfDecimal = 1.464843468484384;
+        console.log(lotsOfDecimal);
+
+        const twoDecimalPlaces = lotsOfDecimal.toFixed(2);
+        console.log(twoDecimalPlaces);
+
+
+        // #4  converting strings to numbers to do calculations
+
+        let myNumber = '74';
+        let newNumber =  Number(myNumber) + 3;
+        console.log("The answer is: " + newNumber);
+
+        // #5 Operator Precedence
+
+        let num1 = 10;
+        let num2 = 50;
+
+        let newValue = num2 + num1 / 8 + 2;
+        console.log(newValue);
+
+        let nextValue = (num2 + num1) / (8 + 2);
+        console.log(nextValue);
+
+        // #6 increment and decrement operators 
+
+        let num3 = 4;
+        num3++;
+        console.log(num3);
+        console.log(num3);
+
+        // #7 assignment operators 
+
+        let x = 3; // x contains the value 3
+        let y = 4; // y contains the value 4
+        x *= y; // x now contains the value 12
+        console.log (x);
+
+
+
+
+    </script>
+</body>
+
+</html>
